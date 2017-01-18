@@ -1,0 +1,16 @@
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\BusTap.Bus.Client.dll
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\BusTap.Bus.Client.pdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\obj\Debug\BusTap.Bus.Client.dll
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\obj\Debug\BusTap.Bus.Client.pdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Mono.Android.dll
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Plugin.Geolocator.Abstractions.dll
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Plugin.Geolocator.dll
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Mono.Android.xml
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Plugin.Geolocator.pdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Plugin.Geolocator.xml
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\Plugin.Geolocator.Abstractions.xml
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\obj\Debug\BusTap.Bus.Client.dll.mdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\BusTap.Bus.Client.dll.mdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\obj\Debug\BusTap.Bus.Client.dll.mdb
+c:\users\mark.mendoza\documents\visual studio 2015\Projects\BusTap.Bus.Client\BusTap.Bus.Client\BusTap.Bus.Client\bin\Debug\BusTap.Bus.Client.dll.mdb
