@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <div class="container">
+        <input type="text" id="message" />
+        <input type="button" id="sendmessage" value="Send" />
+        <input type="hidden" id="displayname" />
+        <ul id="discussion"></ul>
+    </div>
+    <script>
+        function initMap() {
+            var uluru = { lat: -25.363, lng: 131.044 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoKDRiTZEP8kuzZbA4uDlotb6-xeqr20s&callback=initMap">
+    </script>
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+<script src="scripts/jquery.signalR-2.1.2.min.js"></script>
+<script src="//darkmaster-001-site1.btempurl.com/signalr/hubs"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.support.cors = true;
+            debugger;
+
+            var connection = $.hubConnection('http://darkmaster-001-site1.btempurl.com/signalr');
+
+          
+
+            var locationH = connection.createHubProxy('locationHub');
+
+
+
+                locationH.on('broadcastLocation', function (name, longitude, latitude) {
+                    var encodedName = $('<div />').text(name).html();
+                    var encodedMsg = $('<div />').text(longitude, latitude).html();
+                    $('#discussion').append('<li><strong>' + encodedName + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
+                });
+
+
+
+                connection.start().done(function () {
+                    debugger;
+
+                    $('#sendmessage').click(function () {
+                        debugger;
+                        locationH.invoke('send', 'dm', $('#message').val(), $('#message').val());
+                    });
+                });
+  
+        });
+
+       
+    </script>
+</body>
+</html>
