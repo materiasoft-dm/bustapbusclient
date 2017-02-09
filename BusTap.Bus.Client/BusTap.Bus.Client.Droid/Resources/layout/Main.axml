@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assemble=Xamarin.Forms.Maps"
+                x:Class="BusTap.Bus.Client.Droid.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#AAA"
     android:minWidth="25px"
-    android:minHeight="25px">
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/map"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        map:cameraZoom="15"
-        map:mapType="normal"
-        map:liteMode="false" />
+    android:minHeight="25px" >
+  <maps:Map
+  x:Name="LocationMap"
+  HeightRequest="480"
+  WidthRequest="480"
+  VerticalOptions="FillAndExpand"
+  HorizontalOptions="FillAndExpand"
+/>
+
 </RelativeLayout>
